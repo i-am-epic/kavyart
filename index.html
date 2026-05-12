@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavya Artfolio — Fashion Design Portfolio</title>
+  <meta name="description" content="Fashion illustration portfolio by Kavya — where tradition meets artistry. Bridal couture, lehengas, sarees, and contemporary fusion designs.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif' font-style='italic' fill='%23c9a96e'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-line"></div>
+      <div class="preloader-text">
+        <span class="preloader-brand">Kavya Artfolio</span>
+      </div>
+      <div class="preloader-counter"><span id="preloader-count">0</span>%</div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#" class="nav-logo">kavya<span>.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#collections" class="mobile-menu-link">Collections</a>
+    <a href="#about" class="mobile-menu-link">About</a>
+    <a href="#contact" class="mobile-menu-link">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title" data-split>KAVYA</h1>
+        <div class="hero-subtitle-wrap">
+          <p class="hero-subtitle">ARTFOLIO</p>
+        </div>
+        <div class="hero-tagline-wrap">
+          <p class="hero-tagline">Where tradition meets artistry</p>
+        </div>
+        <div class="hero-line"></div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image-inner">
+          <img src="images/rajputana-regal.jpg" alt="Rajputana Regal — Bridal Lehenga Design" class="hero-image">
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <section class="marquee-section">
+    <div class="marquee-row marquee-row--1">
+      <div class="marquee-track">
+        <span>BRIDAL</span><span class="marquee-sep">◆</span>
+        <span>LEHENGA</span><span class="marquee-sep">◆</span>
+        <span>SAREE</span><span class="marquee-sep">◆</span>
+        <span>FUSION</span><span class="marquee-sep">◆</span>
+        <span>COUTURE</span><span class="marquee-sep">◆</span>
+        <span>BRIDAL</span><span class="marquee-sep">◆</span>
+        <span>LEHENGA</span><span class="marquee-sep">◆</span>
+        <span>SAREE</span><span class="marquee-sep">◆</span>
+        <span>FUSION</span><span class="marquee-sep">◆</span>
+        <span>COUTURE</span><span class="marquee-sep">◆</span>
+      </div>
+    </div>
+    <div class="marquee-row marquee-row--2">
+      <div class="marquee-track">
+        <span>CONTEMPORARY</span><span class="marquee-sep">◆</span>
+        <span>TRADITIONAL</span><span class="marquee-sep">◆</span>
+        <span>EMBROIDERY</span><span class="marquee-sep">◆</span>
+        <span>HANDCRAFT</span><span class="marquee-sep">◆</span>
+        <span>TEXTILE</span><span class="marquee-sep">◆</span>
+        <span>CONTEMPORARY</span><span class="marquee-sep">◆</span>
+        <span>TRADITIONAL</span><span class="marquee-sep">◆</span>
+        <span>EMBROIDERY</span><span class="marquee-sep">◆</span>
+        <span>HANDCRAFT</span><span class="marquee-sep">◆</span>
+        <span>TEXTILE</span><span class="marquee-sep">◆</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="collections" id="collections">
+    <div class="section-header">
+      <span class="section-label">Portfolio</span>
+      <h2 class="section-title" data-split>Curated Collection</h2>
+    </div>
+    <div class="collections-grid">
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/mughal-rose.jpg" alt="Mughal Rose">
+          </div>
+          <div class="card-info">
+            <h3>Mughal Rose</h3>
+            <span>Bridal Couture</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/emerald-enchantment.jpg" alt="Emerald Enchantment">
+          </div>
+          <div class="card-info">
+            <h3>Emerald Enchantment</h3>
+            <span>Occasion Wear</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/saffron-heritage.jpg" alt="Saffron Heritage">
+          </div>
+          <div class="card-info">
+            <h3>Saffron Heritage</h3>
+            <span>Traditional</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/midnight-kutch.jpg" alt="Midnight Kutch">
+          </div>
+          <div class="card-info">
+            <h3>Midnight Kutch</h3>
+            <span>Heritage Saree</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/paisley-whisper.jpg" alt="Paisley Whisper">
+          </div>
+          <div class="card-info">
+            <h3>Paisley Whisper</h3>
+            <span>Classic Saree</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item reveal-item">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/patchwork-poetry.jpg" alt="Patchwork Poetry">
+          </div>
+          <div class="card-info">
+            <h3>Patchwork Poetry</h3>
+            <span>Fusion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Runway (Horizontal Scroll Gallery) -->
+  <section class="runway" id="runway">
+    <div class="runway-header">
+      <span class="section-label">Showcase</span>
+      <h2 class="section-title" data-split>The Runway</h2>
+    </div>
+    <div class="runway-track-wrapper">
+      <div class="runway-track" id="runwayTrack">
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/rajputana-regal.jpg" alt="Rajputana Regal" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">01</span>
+            <h3>Rajputana Regal</h3>
+            <p>Royal Rajasthani bridal ensemble — heavy gold paisley motifs on deep magenta, draped with ornate traditional jewelry</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/mughal-rose.jpg" alt="Mughal Rose" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">02</span>
+            <h3>Mughal Rose</h3>
+            <p>Inspired by Mughal architecture — jharokha arches and floral jaal rendered in gold on a pink ombré canvas</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/emerald-enchantment.jpg" alt="Emerald Enchantment" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">03</span>
+            <h3>Emerald Enchantment</h3>
+            <p>Verdant splendor in cascading botanical embroidery on emerald silk, with a delicate matching dupatta</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/saffron-heritage.jpg" alt="Saffron Heritage" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">04</span>
+            <h3>Saffron Heritage</h3>
+            <p>A celebration of tradition — golden lehenga with rich border embroidery and deep maroon saree pallu</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/midnight-kutch.jpg" alt="Midnight Kutch" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">05</span>
+            <h3>Midnight Kutch</h3>
+            <p>A black canvas brought alive with Kutchi embroidery — vibrant red panels, mirror work, and folk motifs</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/patchwork-poetry.jpg" alt="Patchwork Poetry" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">06</span>
+            <h3>Patchwork Poetry</h3>
+            <p>An ode to India's textile diversity — each panel tells a different story through pattern and color</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/paisley-whisper.jpg" alt="Paisley Whisper" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">07</span>
+            <h3>Paisley Whisper</h3>
+            <p>Understated elegance — a cream saree with scattered paisley butis and an intricately bordered pallu</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/east-meets-west.jpg" alt="East Meets West" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">08</span>
+            <h3>East Meets West</h3>
+            <p>Bridging cultures — a crisp white shirt meets royal blue lehenga; a paisley blazer reimagines the mini dress</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/modern-drape.jpg" alt="Modern Drape" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">09</span>
+            <h3>Modern Drape</h3>
+            <p>Contemporary silhouettes — from polka-dot midi to corset-saree fusion, where modern meets tradition</p>
+          </div>
+        </div>
+        <div class="runway-card">
+          <div class="runway-card-image">
+            <img src="images/punjab-palette.jpg" alt="Punjab Palette" loading="lazy">
+          </div>
+          <div class="runway-card-info">
+            <span class="runway-card-num">10</span>
+            <h3>Punjab Palette</h3>
+            <p>Casual chic with an Indian soul — halter kurta paired with dhoti-style salwar in jewel tones</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-image-wrap reveal-item">
+        <div class="about-image-frame">
+          <img src="images/emerald-enchantment.jpg" alt="Emerald Enchantment — Occasion Wear Illustration" loading="lazy">
+        </div>
+        <span class="about-image-caption">Emerald Enchantment — Botanical Embroidery on Silk</span>
+      </div>
+      <div class="about-content">
+        <span class="section-label">The Artist</span>
+        <h2 class="about-title" data-split>Kavya</h2>
+        <div class="about-text">
+          <p>Every stroke of color, every intricate pattern, every flowing silhouette begins with a vision — to celebrate the rich tapestry of Indian fashion heritage through the art of illustration.</p>
+          <p>From the ornate bridal lehengas of Rajasthan to contemporary fusion silhouettes, each design is hand-rendered with meticulous attention to embroidery detail, fabric draping, and cultural authenticity.</p>
+          <p>This portfolio represents a journey through India's diverse textile traditions, reimagined through a contemporary artistic lens.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">11</span>
+            <span class="stat-label">Illustrations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Styles</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Passion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-cta">
+        <h2 class="footer-title" data-split>Let's Create Together</h2>
+        <p class="footer-subtitle">Open for commissions, collaborations, and creative partnerships</p>
+        <a href="mailto:hello@kavyaartfolio.com" class="footer-email">hello@kavyaartfolio.com</a>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-brand">
+          <span>Kavya Artfolio</span>
+        </div>
+        <div class="footer-links">
+          <a href="#" class="footer-social">Instagram</a>
+          <a href="#" class="footer-social">Behance</a>
+          <a href="#" class="footer-social">Pinterest</a>
+        </div>
+        <div class="footer-copy">
+          <span>&copy; 2026 All rights reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
